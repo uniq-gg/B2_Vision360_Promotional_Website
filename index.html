@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vision360 | See Safety From Every Angle</title>
+  <meta name="description" content="Vision360 is an immersive 360 degree health and safety training platform for logistics and warehousing teams. Browser-based, gamified, and built for compliance assurance." />
+  <meta name="keywords" content="Vision360, health and safety training, 360 degree training, warehouse safety, compliance training, logistics safety, gamified training, H&S compliance" />
+  <meta property="og:title" content="Vision360 | See Safety From Every Angle" />
+  <meta property="og:description" content="Transform workplace health and safety training with immersive 360 degree scenarios and compliance-grade completion tracking." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+  <!-- Background Effects -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="orb orb-1" aria-hidden="true"></div>
+  <div class="orb orb-2" aria-hidden="true"></div>
+  <div class="orb orb-3" aria-hidden="true"></div>
+
+  <!-- NAVIGATION -->
+  <header>
+    <nav class="nav" id="main-nav" role="navigation" aria-label="Main navigation">
+      <div class="nav-inner">
+        <a href="#home" class="nav-logo" id="nav-logo-link" aria-label="Vision360 Home">
+          <img src="assets/logo_landscape.png" alt="Vision360" id="nav-logo-img" />
+        </a>
+        <div class="nav-links" id="nav-links">
+          <a href="#home" class="active" id="nav-home">Home</a>
+          <a href="#about" id="nav-about">About</a>
+          <a href="#employers" id="nav-employers">For Employers</a>
+          <a href="#platform" id="nav-platform">Platform</a>
+          <a href="#team" id="nav-team">Our Team</a>
+          <a href="#contact" id="nav-contact">Contact</a>
+        </div>
+        <a href="#preview" class="nav-cta" id="nav-cta-btn">Try the Preview</a>
+        <div class="nav-toggle" id="nav-toggle" aria-label="Open mobile menu" role="button" tabindex="0">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </nav>
+    <nav class="nav-mobile" id="nav-mobile" aria-label="Mobile navigation">
+      <a href="#home" id="mob-home">Home</a>
+      <a href="#about" id="mob-about">About</a>
+      <a href="#employers" id="mob-employers">For Employers</a>
+      <a href="#platform" id="mob-platform">Platform</a>
+      <a href="#team" id="mob-team">Our Team</a>
+      <a href="#contact" id="mob-contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home" aria-label="Hero section">
+    <div class="hero-bg">
+      <img src="assets/warehouse_panorama.png" alt="" class="hero-bg-img" aria-hidden="true" />
+      <div class="hero-bg-gradient" aria-hidden="true"></div>
+    </div>
+    <div class="container">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <div class="hero-badge" id="hero-badge">CET257 Enterprise Project, Team 1</div>
+          <h1 class="hero-headline">
+            <span class="line-1">See Safety</span>
+            <span class="line-2">From Every</span>
+            <span class="line-3">Angle.</span>
+          </h1>
+          <p class="hero-sub">
+            Vision360 replaces slide-and-click compliance training with immersive 360 degree
+            warehouse scenarios. Trainees finish. Knowledge sticks. Managers get the audit trail
+            they need.
+          </p>
+          <div class="hero-actions">
+            <a href="#preview" class="btn btn-accent btn-lg" id="hero-preview-btn">Try the 360 Preview</a>
+            <a href="#employers" class="btn btn-outline" id="hero-employers-btn">For H&amp;S Managers</a>
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat" id="hero-stat-1">
+              <div class="hero-stat-value">360</div>
+              <div class="hero-stat-label">Degree Immersion</div>
+            </div>
+            <div class="hero-stat" id="hero-stat-2">
+              <div class="hero-stat-value">6+</div>
+              <div class="hero-stat-label">Training Modules</div>
+            </div>
+            <div class="hero-stat" id="hero-stat-3">
+              <div class="hero-stat-value">VR</div>
+              <div class="hero-stat-label">Ready Platform</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-device">
+            <div class="hero-device-frame">
+              <img src="assets/warehouse_panorama.png" alt="Vision360 360 degree training interface preview" class="hero-device-img" id="hero-device-img" />
+            </div>
+            <div class="hero-device-badge">
+              <div class="hero-device-badge-icon">&#127918;</div>
+              <div class="hero-device-badge-text">
+                <strong>Gamified Training</strong>
+                <span>Real-time scoring and feedback</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator" aria-hidden="true">
+      <div class="scroll-mouse"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- 360 DEGREE PREVIEW CTA -->
+  <section class="section-sm" id="preview" aria-label="360 degree preview">
+    <div class="container">
+      <div class="preview-cta-banner reveal" id="preview-banner">
+        <div class="preview-cta-left">
+          <div class="preview-cta-icon">&#128269;</div>
+          <div>
+            <h2 class="preview-cta-title">Try the Hazard Perception Preview</h2>
+            <p class="preview-cta-sub">Step inside a real 360 degree warehouse. Spot the hazards. See your score. No login needed.</p>
+          </div>
+        </div>
+        <a href="preview.html" class="btn btn-accent btn-lg" id="preview-launch-btn" target="_blank" rel="noopener">
+          Launch 360 Preview
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about" aria-label="About Vision360">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label"><span class="dot"></span>About Us</div>
+        <h2 class="section-title">Why <span class="gradient-text">Vision360?</span></h2>
+        <p class="section-subtitle">
+          Traditional slide-and-click H&amp;S training has measurable completion rates but low
+          knowledge retention. Vision360 embeds learning in context, inside the same warehouse
+          environment trainees work in every day, so understanding follows.
+        </p>
+      </div>
+      <div class="features-grid stagger" id="features-grid">
+        <div class="feature-card reveal" id="feat-360">
+          <div class="feature-icon">&#128260;</div>
+          <h3 class="feature-title">360 Degree Immersive Environments</h3>
+          <p class="feature-desc">
+            Trainees are placed inside photorealistic 360 degree warehouse scenes and asked to spot
+            real hazards under time pressure, making learning stick through context rather than slides.
+          </p>
+        </div>
+        <div class="feature-card reveal" id="feat-gamified">
+          <div class="feature-icon">&#127942;</div>
+          <h3 class="feature-title">Gamified and Competitive</h3>
+          <p class="feature-desc">
+            Scoring, leaderboards and colleague challenges transform a compliance requirement into
+            something people actively want to return to and improve at.
+          </p>
+        </div>
+        <div class="feature-card reveal" id="feat-feedback">
+          <div class="feature-icon">&#128202;</div>
+          <h3 class="feature-title">Instant, Meaningful Feedback</h3>
+          <p class="feature-desc">
+            Every hazard spotted or missed is explained in plain language tied to real risk, so
+            trainees leave with genuine understanding rather than just a pass mark.
+          </p>
+        </div>
+        <div class="feature-card reveal" id="feat-compliance">
+          <div class="feature-icon">&#128203;</div>
+          <h3 class="feature-title">Compliance Evidence, Built In</h3>
+          <p class="feature-desc">
+            Every attempt is timestamped and recorded. Managers can pull completion reports,
+            scores and module history at any time, without chasing spreadsheets.
+          </p>
+        </div>
+        <div class="feature-card reveal" id="feat-vr">
+          <div class="feature-icon">&#129301;</div>
+          <h3 class="feature-title">VR-Ready Architecture</h3>
+          <p class="feature-desc">
+            Built on WebGL, scenarios run in any modern browser today and can be extended to
+            Meta Quest VR without re-authoring content, protecting your investment.
+          </p>
+        </div>
+        <div class="feature-card reveal" id="feat-scale">
+          <div class="feature-icon">&#128200;</div>
+          <h3 class="feature-title">Scalable Module Library</h3>
+          <p class="feature-desc">
+            Hazard Perception is the flagship module. The same platform and data model extend
+            to Manual Handling, Working at Height, Unsafe Acts and Cyber Awareness without a
+            core rebuild.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MISSION -->
+  <section class="section" id="mission" aria-label="Our mission">
+    <div class="container">
+      <div class="mission-grid">
+        <div class="mission-visual reveal">
+          <div class="mission-img-wrap">
+            <img src="assets/warehouse_panorama.png" alt="Vision360 warehouse training environment" class="mission-img" id="mission-img" />
+          </div>
+          <div class="mission-stats-overlay">
+            <div class="mission-stat-pill">
+              <span class="stat-icon">&#127919;</span>
+              <div class="stat-info">
+                <strong>Hazard Perception</strong>
+                <span>Flagship Module, Live in Prototype</span>
+              </div>
+            </div>
+            <div class="mission-stat-pill">
+              <span class="stat-icon">&#9889;</span>
+              <div class="stat-info">
+                <strong>5 second load target</strong>
+                <span>On standard warehouse Wi-Fi</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mission-content reveal">
+          <div class="section-label"><span class="dot"></span>Our Mission</div>
+          <h2 class="section-title">Replacing passive training with <span class="gradient-text">real engagement</span></h2>
+          <p class="section-subtitle">
+            Compliance training that staff actually finish and actually remember. That is what
+            Vision360 is built to deliver, combining evidence-driven design with the kind of
+            immersive, scenario-based learning that behavioural research consistently shows works.
+          </p>
+          <div class="mission-values">
+            <div class="mission-value">
+              <div class="mission-value-icon">&#128269;</div>
+              <div class="mission-value-text">
+                <strong>Evidence-Driven Design</strong>
+                <span>Every design decision is grounded in usability research and heuristic evaluation against Nielsen's 10 principles</span>
+              </div>
+            </div>
+            <div class="mission-value">
+              <div class="mission-value-icon">&#129309;</div>
+              <div class="mission-value-text">
+                <strong>Client-First Development</strong>
+                <span>Built in direct consultation with Vantec to solve real operational H&amp;S challenges, not a generic off-the-shelf solution</span>
+              </div>
+            </div>
+            <div class="mission-value">
+              <div class="mission-value-icon">&#9855;</div>
+              <div class="mission-value-text">
+                <strong>Inclusive by Default</strong>
+                <span>Runs in any modern browser on any device. Hotspots are distinguishable without colour alone, and text supports adjustable sizing</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOR EMPLOYERS / COMPLIANCE -->
+  <section class="section" id="employers" aria-label="For H and S managers">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label"><span class="dot"></span>For H&amp;S and Operations Managers</div>
+        <h2 class="section-title">Training your team will actually <span class="gradient-text">finish, and stick.</span></h2>
+        <p class="section-subtitle">
+          Your primary concern is not entertainment. It is demonstrable compliance. Vision360
+          is designed from the ground up to give you verifiable evidence that training happened,
+          was understood, and can be reported on.
+        </p>
+      </div>
+      <div class="employers-grid stagger" id="employers-grid">
+        <div class="employer-card reveal" id="emp-audit">
+          <div class="employer-card-icon">&#128196;</div>
+          <h3>Audit-Ready Completion Records</h3>
+          <p>Every module attempt is automatically timestamped and stored against the trainee's account. Pull a compliance report at any point, with no manual data entry required.</p>
+        </div>
+        <div class="employer-card reveal" id="emp-evidence">
+          <div class="employer-card-icon">&#9989;</div>
+          <h3>Proof Training Was Understood</h3>
+          <p>A pass mark on a checkbox quiz tells you nothing. Vision360 records which specific hazards each trainee identified or missed, giving you genuine insight into knowledge gaps.</p>
+        </div>
+        <div class="employer-card reveal" id="emp-assign">
+          <div class="employer-card-icon">&#128101;</div>
+          <h3>Assign by Individual or Team</h3>
+          <p>Assign modules to specific individuals, whole teams or new-starter cohorts from the admin portal. Track progress at group level without spreadsheets or manual chasing.</p>
+        </div>
+        <div class="employer-card reveal" id="emp-retry">
+          <div class="employer-card-icon">&#128260;</div>
+          <h3>Retry Until Competent</h3>
+          <p>Trainees who miss hazards are shown exactly what they missed and why it matters, then can retry immediately. The system records improvement over attempts, not just first-pass scores.</p>
+        </div>
+        <div class="employer-card reveal" id="emp-browser">
+          <div class="employer-card-icon">&#128187;</div>
+          <h3>No Installation, No IT Tickets</h3>
+          <p>Vision360 runs in Chrome, Edge and Safari with no plugins, downloads or IT department involvement. Staff complete training on any shared kiosk, desktop or tablet already in the building.</p>
+        </div>
+        <div class="employer-card reveal" id="emp-scale">
+          <div class="employer-card-icon">&#128640;</div>
+          <h3>Grows With Your Topic List</h3>
+          <p>Hazard Perception is the first module. Manual Handling, Working at Height and Unsafe Acts follow in later iterations, all on the same platform with the same reporting infrastructure.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLATFORM -->
+  <section class="section" id="platform" aria-label="Platform features">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label"><span class="dot"></span>The Platform</div>
+        <h2 class="section-title">A complete training <span class="gradient-text">ecosystem</span></h2>
+        <p class="section-subtitle">
+          Vision360 is being built as four interconnected components. The trainee-facing
+          prototype is live now. The admin reporting layer and expanded module library are
+          planned for subsequent development sprints.
+        </p>
+      </div>
+      <div class="services-grid stagger">
+        <div class="service-card reveal" id="svc-trainee">
+          <div class="service-icon-wrap">&#127918;</div>
+          <div class="service-content">
+            <h3>Trainee Experience <span class="svc-badge">Prototype Live</span></h3>
+            <p>A fully immersive 360 degree scene viewer with hotspot hazards, countdown timer, scoring and per-hazard feedback.</p>
+            <div class="service-features">
+              <div class="service-feature">360 degree scene navigation with mouse, touch or gyroscope</div>
+              <div class="service-feature">Timed hazard-spotting with real-time score counter</div>
+              <div class="service-feature">Plain-language feedback for every hazard found or missed</div>
+              <div class="service-feature">Colleague challenge and leaderboard system</div>
+            </div>
+          </div>
+        </div>
+        <div class="service-card reveal" id="svc-admin">
+          <div class="service-icon-wrap">&#128203;</div>
+          <div class="service-content">
+            <h3>Admin and Reporting <span class="svc-badge svc-badge--planned">Planned</span></h3>
+            <p>A dedicated administrator dashboard for managing content, tracking completions and producing compliance evidence reports.</p>
+            <div class="service-features">
+              <div class="service-feature">Create, edit and remove hazard scenarios and hotspots</div>
+              <div class="service-feature">Assign modules to individuals or teams</div>
+              <div class="service-feature">View individual and group performance reports</div>
+              <div class="service-feature">Role-based access with secure credential storage</div>
+            </div>
+          </div>
+        </div>
+        <div class="service-card reveal" id="svc-modules">
+          <div class="service-icon-wrap">&#128218;</div>
+          <div class="service-content">
+            <h3>Module Library <span class="svc-badge svc-badge--planned">Expanding</span></h3>
+            <p>Hazard Perception is the initial module. The platform and data model are designed to extend to further topics without a core rebuild.</p>
+            <div class="service-features">
+              <div class="service-feature">Hazard Perception, flagship module, live in prototype</div>
+              <div class="service-feature">Manual Handling, planned</div>
+              <div class="service-feature">Working at Height, planned</div>
+              <div class="service-feature">Unsafe Acts and 5 Whys, on the roadmap</div>
+            </div>
+          </div>
+        </div>
+        <div class="service-card reveal" id="svc-tech">
+          <div class="service-icon-wrap">&#129513;</div>
+          <div class="service-content">
+            <h3>Technology Stack</h3>
+            <p>Browser-based WebGL architecture. Zero installation, works on desktop, tablet and shared kiosks, extendable to full VR headsets without content rebuilds.</p>
+            <div class="service-features">
+              <div class="service-feature">Runs in Chrome, Edge, Safari, no plugins required</div>
+              <div class="service-feature">Responsive on desktop, tablet and kiosk devices</div>
+              <div class="service-feature">Extendable to Meta Quest VR without re-authoring content</div>
+              <div class="service-feature">Industry-standard credential hashing, role-based access</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="section" id="team" aria-label="Meet the team">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label"><span class="dot"></span>Our Team</div>
+        <h2 class="section-title">The people behind <span class="gradient-text">Vision360</span></h2>
+        <p class="section-subtitle">
+          Team 1, six students from the CET257 Enterprise Project at ISMT College (University of Sunderland),
+          combining technical, design, research and communication expertise.
+        </p>
+      </div>
+      <div class="team-grid stagger" id="team-grid">
+
+        <div class="team-card reveal" id="team-unique">
+          <div class="team-avatar">
+            <div class="team-avatar-ring"></div>
+            <div class="team-avatar-inner">UG</div>
+          </div>
+          <div class="team-name">Unique Gurung</div>
+          <div class="team-role">Team Leader and Technical Lead</div>
+          <p class="team-bio">Coordinates team progress, manages version control, drives technical architecture decisions and acts as main point of contact with the module leader.</p>
+          <div class="team-skills">
+            <span class="team-skill-tag">Leadership</span>
+            <span class="team-skill-tag">Technical</span>
+            <span class="team-skill-tag">Research</span>
+          </div>
+          <div class="skill-bars">
+            <div class="skill-bar-row">
+              <span class="skill-bar-label">Technical</span>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="100"></div></div>
+              <span class="skill-bar-val">5</span>
+            </div>
+            <div class="skill-bar-row">
+              <span class="skill-bar-label">Research</span>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="100"></div></div>
+              <span class="skill-bar-val">5</span>
+            </div>
+            <div class="skill-bar-row">
+              <span class="skill-bar-label">Comms</span>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
+              <span class="skill-bar-val">4</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-card reveal" id="team-gonish">
+          <div class="team-avatar">
+            <div class="team-avatar-ring"></div>
+            <div class="team-avatar-inner">GG</div>
+          </div>
+          <div class="team-name">Gonish Gurung</div>
+          <div class="team-role">Documentation Manager</div>
+          <p class="team-bio">Structures and polishes all written submissions, collates individual contributions, resolves inconsistencies and maintains professional documentation standards across the project.</p>
+          <div class="team-skills">
+            <span class="team-skill-tag">Writing</span>
+            <span class="team-skill-tag">Research</span>
+            <span class="team-skill-tag">Analysis</span>
+          </div>
+          <div class="skill-bars">
+            <div class="skill-bar-row">
+              <span class="skill-bar-label">Research</span>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="100"></div></div>
+              <span class="skill-bar-val">5</span>
+            </div>
+            <div class="skill-bar-row">
+              <span class="skill-bar-label">Comms</span>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
+              <span class="skill-bar-val">4</span>
+            </div>
+            <div class="skill-bar-row">
+              <span class="skill-bar-label">Design</span>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="60"></div></div>
+              <span class="skill-bar-val">3</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-card reveal" id="team-bhimsang">
+          <div class="team-avatar">
+            <div class="team-avatar-ring"></div>
+            <div class="team-avatar-inner">BT</div>
+          </div>
+          <div class="team-name">Bhimsang Tamang</div>
+          <div class="team-role">Design and Presentation Lead</div>
+          <p class="team-bio">Leads visual design, interface mockups and prototype screens for the Hazard Perception module. Prepares presentation slides and curates supporting visual evidence for submissions.</p>
+          <div class="team-skills">
+            <span class="team-skill-tag">Design</span>
+            <span class="team-skill-tag">Presentation</span>
+            <span class="team-skill-tag">Visual</span>
+          </div>
+          <div class="skill-bars">
+            <div class="skill-bar-row">
+              <span class="skill-bar-label">Design</span>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="100"></div></div>
+              <span class="skill-bar-val">5</span>
+            </div>
+            <div class="skill-bar-row">
+              <span class="skill-bar-label">Comms</span>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
+              <span class="skill-bar-val">4</span>
+            </div>
+            <div class="skill-bar-row">
+              <span class="skill-bar-label">Technical</span>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="60"></div></div>
+              <span class="skill-bar-val">3</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-card reveal" id="team-rohan">
+          <div class="team-avatar">
+            <div class="team-avatar-ring"></div>
+            <div class="team-avatar-inner">RS</div>
+          </div>
+          <div class="team-name">Rohan Sharma</div>
+          <div class="team-role">Research and QA Lead</div>
+          <p class="team-bio">Applies analytical rigour to design and testing decisions. Evaluates prototype activity, identifies usability issues and ensures submissions meet professional quality standards.</p>
+          <div class="team-skills">
+            <span class="team-skill-tag">Research</span>
+            <span class="team-skill-tag">Testing</span>
+            <span class="team-skill-tag">Analysis</span>
+          </div>
+          <div class="skill-bars">
+            <div class="skill-bar-row">
+              <span class="skill-bar-label">Research</span>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="100"></div></div>
+              <span class="skill-bar-val">5</span>
+            </div>
+            <div class="skill-bar-row">
+              <span class="skill-bar-label">Technical</span>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
+              <span class="skill-bar-val">4</span>
+            </div>
+            <div class="skill-bar-row">
+              <span class="skill-bar-label">Comms</span>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="60"></div></div>
+              <span class="skill-bar-val">3</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-card reveal" id="team-manika">
+          <div class="team-avatar">
+            <div class="team-avatar-ring"></div>
+            <div class="team-avatar-inner">MG</div>
+          </div>
+          <div class="team-name">Manika Gurung</div>
+          <div class="team-role">Communication Lead</div>
+          <p class="team-bio">Organises meetings, takes accurate minutes and keeps clear records of feedback and decisions. Ensures client and tutor input is relayed to the team and turned into concrete actions.</p>
+          <div class="team-skills">
+            <span class="team-skill-tag">Communication</span>
+            <span class="team-skill-tag">Coordination</span>
+            <span class="team-skill-tag">Minutes</span>
+          </div>
+          <div class="skill-bars">
+            <div class="skill-bar-row">
+              <span class="skill-bar-label">Comms</span>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="100"></div></div>
+              <span class="skill-bar-val">5</span>
+            </div>
+            <div class="skill-bar-row">
+              <span class="skill-bar-label">Docs</span>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
+              <span class="skill-bar-val">4</span>
+            </div>
+            <div class="skill-bar-row">
+              <span class="skill-bar-label">Technical</span>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="60"></div></div>
+              <span class="skill-bar-val">3</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-card reveal" id="team-ranjit">
+          <div class="team-avatar">
+            <div class="team-avatar-ring"></div>
+            <div class="team-avatar-inner">RA</div>
+          </div>
+          <div class="team-name">Ranjit Acharya</div>
+          <div class="team-role">Marketing and Client Engagement Lead</div>
+          <p class="team-bio">Develops Vision360's zero-budget marketing strategy, corporate identity materials and branding. Leads client-facing session preparation alongside the Communication Lead.</p>
+          <div class="team-skills">
+            <span class="team-skill-tag">Marketing</span>
+            <span class="team-skill-tag">Client Engagement</span>
+            <span class="team-skill-tag">Branding</span>
+          </div>
+          <div class="skill-bars">
+            <div class="skill-bar-row">
+              <span class="skill-bar-label">Comms</span>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
+              <span class="skill-bar-val">4</span>
+            </div>
+            <div class="skill-bar-row">
+              <span class="skill-bar-label">Design</span>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
+              <span class="skill-bar-val">4</span>
+            </div>
+            <div class="skill-bar-row">
+              <span class="skill-bar-label">Technical</span>
+              <div class="skill-bar-track"><div class="skill-bar-fill" data-width="60"></div></div>
+              <span class="skill-bar-val">3</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq" aria-label="Frequently asked questions">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label"><span class="dot"></span>FAQ</div>
+        <h2 class="section-title">Common <span class="gradient-text">questions</span></h2>
+      </div>
+      <div class="faq-list reveal stagger" id="faq-list">
+
+        <div class="faq-item" id="faq-1">
+          <button class="faq-q" id="faq-btn-1" aria-expanded="false" aria-controls="faq-a-1">
+            What hardware do trainees need to use Vision360?
+            <span class="faq-chevron" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a" id="faq-a-1" role="region" aria-labelledby="faq-btn-1" hidden>
+            <p>Nothing beyond a standard device with a modern browser. Vision360 runs in Chrome, Edge and Safari on desktop and tablet with no plugins or downloads. For organisations that want to move to full VR, the same content is compatible with Meta Quest headsets without being re-authored.</p>
+          </div>
+        </div>
+
+        <div class="faq-item" id="faq-2">
+          <button class="faq-q" id="faq-btn-2" aria-expanded="false" aria-controls="faq-a-2">
+            How does Vision360 help with compliance audits?
+            <span class="faq-chevron" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a" id="faq-a-2" role="region" aria-labelledby="faq-btn-2" hidden>
+            <p>Every module attempt is automatically timestamped and linked to the trainee's account. The admin portal lets managers export completion records, individual scores and module history in a format suitable for H&amp;S audit evidence. No manual data entry is involved.</p>
+          </div>
+        </div>
+
+        <div class="faq-item" id="faq-3">
+          <button class="faq-q" id="faq-btn-3" aria-expanded="false" aria-controls="faq-a-3">
+            Which training topics does Vision360 currently cover?
+            <span class="faq-chevron" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a" id="faq-a-3" role="region" aria-labelledby="faq-btn-3" hidden>
+            <p>The current prototype focuses on Hazard Perception, which covers identifying workplace hazards in a 360 degree warehouse environment. The platform is architected to expand to Manual Handling, Working at Height, Unsafe Acts, 5 Whys root cause analysis and Cyber Awareness in subsequent development iterations without requiring a platform rebuild.</p>
+          </div>
+        </div>
+
+        <div class="faq-item" id="faq-4">
+          <button class="faq-q" id="faq-btn-4" aria-expanded="false" aria-controls="faq-a-4">
+            Can trainees retake a module if they score poorly?
+            <span class="faq-chevron" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a" id="faq-a-4" role="region" aria-labelledby="faq-btn-4" hidden>
+            <p>Yes. After each attempt, trainees receive plain-language feedback on every hazard they missed and why it matters. They can then replay the same scenario immediately. All attempts are recorded, so managers can see improvement over time rather than just a first-pass score.</p>
+          </div>
+        </div>
+
+        <div class="faq-item" id="faq-5">
+          <button class="faq-q" id="faq-btn-5" aria-expanded="false" aria-controls="faq-a-5">
+            Is Vision360 currently available to purchase?
+            <span class="faq-chevron" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a" id="faq-a-5" role="region" aria-labelledby="faq-btn-5" hidden>
+            <p>Vision360 is currently in active development as part of a university enterprise project, built in direct partnership with Vantec. A prototype demonstrating the core Hazard Perception experience is available to preview via the link on this page. If you are interested in the project or want to discuss the platform, please use the contact form below.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT WITH GDPR FORM -->
+  <section class="section cta-section" id="contact" aria-label="Contact Vision360">
+    <div class="cta-bg"></div>
+    <div class="container">
+      <div class="cta-content reveal">
+        <div class="section-label" style="display:inline-flex;"><span class="dot"></span>Get In Touch</div>
+        <h2 class="section-title">Interested in what<br /><span class="gradient-text">Vision360 can do?</span></h2>
+        <p class="section-subtitle">
+          Vision360 is currently in active development in partnership with Vantec.
+          If you are an H&amp;S manager, operations lead or researcher and would like to
+          learn more, get in touch using the form below.
+        </p>
+
+        <form class="contact-form" id="contact-form" novalidate aria-label="Contact form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="contact-name" class="form-label">Full Name <span aria-hidden="true">*</span></label>
+              <input type="text" id="contact-name" name="name" class="form-input" placeholder="Your full name" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="contact-email" class="form-label">Email Address <span aria-hidden="true">*</span></label>
+              <input type="email" id="contact-email" name="email" class="form-input" placeholder="you@organisation.com" required autocomplete="email" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="contact-org" class="form-label">Organisation</label>
+            <input type="text" id="contact-org" name="organisation" class="form-input" placeholder="Your company or institution" autocomplete="organization" />
+          </div>
+          <div class="form-group">
+            <label for="contact-msg" class="form-label">Message <span aria-hidden="true">*</span></label>
+            <textarea id="contact-msg" name="message" class="form-input form-textarea" placeholder="Tell us what you are interested in..." required rows="4"></textarea>
+          </div>
+
+          <div class="form-gdpr" id="gdpr-section">
+            <label class="gdpr-label" for="gdpr-consent">
+              <input type="checkbox" id="gdpr-consent" name="gdpr" required class="gdpr-checkbox" />
+              <span>I agree that Vision360 may store and use my contact details to respond to this enquiry, in accordance with our
+                <a href="#privacy" class="gdpr-link" id="privacy-link">Privacy Policy</a>.
+                Your data will not be shared with third parties and will be deleted within 12 months of last contact.
+              </span>
+            </label>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn-accent btn-lg" id="form-submit-btn">Send Message</button>
+          </div>
+          <p class="form-note" id="form-note">Fields marked * are required. We aim to respond within 2 working days.</p>
+          <div class="form-success" id="form-success" hidden role="alert">
+            <span>&#10003;</span> Thank you, your message has been sent. We will be in touch shortly.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logo_landscape.png" alt="Vision360" id="footer-logo" />
+          <p>See safety from every angle. Immersive 360 degree health and safety training for modern logistics and warehousing teams.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Platform</h4>
+          <a href="#preview" id="footer-preview-link">360 Preview</a>
+          <a href="#platform" id="footer-trainee-link">Trainee Experience</a>
+          <a href="#platform" id="footer-modules-link">Module Library</a>
+          <a href="#platform" id="footer-vr-link">VR Ready</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="#about" id="footer-about-link">About Us</a>
+          <a href="#employers" id="footer-employers-link">For Employers</a>
+          <a href="#team" id="footer-team-link">Our Team</a>
+          <a href="#faq" id="footer-faq-link">FAQ</a>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <a href="#privacy" id="footer-privacy-link">Privacy Policy</a>
+          <a href="#contact" id="footer-contact-link">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Vision360. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#home" id="footer-back-top">Back to Top</a>
+        </div>
+      </div>
+      <p class="footer-credit" id="footer-credit">
+        Developed as part of the University of Sunderland's CET257 Enterprise Project, in partnership with Vantec.
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
